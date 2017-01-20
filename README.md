@@ -70,9 +70,3 @@ You can access to the 10 next users by adding the `skip` parameter:
 ```javascript
 const query = '{ users (limit: 10, sort: "firstName ASC", skip: 10) { firstName lastName articles { title comments { text }}}}';
 ```
-
-And you also can select those records in a period between two dates:
-
-```javascript
-const query = '{ users (limit: 10, sort: "firstName ASC", skip: 10, start: "09/21/2015", end:" 09/22/2015") { firstName lastName articles { title comments { text }}}}';
-```
