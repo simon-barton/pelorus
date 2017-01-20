@@ -43,7 +43,7 @@ const internals = {
  */
 module.exports.getGraphQlSchema = function (config)
 {
-    Joi.assert(config, internals.configSchema, 'Bad plugin options passed to waterline-graphql');
+    Joi.assert(config, internals.configSchema, 'Bad plugin options passed to pelorus');
 
     internals.defaults = _.defaults(config, internals.defaults);
 

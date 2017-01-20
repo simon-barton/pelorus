@@ -1,5 +1,7 @@
 # GraphQL adapter for Waterline
 
+Pelorus can help you find what you're looking for using GraphQL and Waterline queries. 
+
 Forked from [waterline-graphql adapter](https://github.com/strapi/waterline-graphql)
 
 ## Installation
