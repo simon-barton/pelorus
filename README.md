@@ -1,6 +1,6 @@
 # GraphQL adapter for Waterline
 
-Pelorus can help you find what you're looking for using GraphQL and Waterline queries. 
+Pelorus can help find what you're looking for using GraphQL and Waterline queries. 
 
 Forked from [waterline-graphql adapter](https://github.com/strapi/waterline-graphql)
 
@@ -33,7 +33,7 @@ const schemas = Pelorus.getGraphQlSchema({
 const graphql = require('graphql').graphql();
 
 // Build your query
-const query = '{ users {firstName lastName articles { title comments { text } } } }';
+const query = '{ users {firstName lastName articles { title comments { text }}}}';
 
 // Execute the query
 graphql(schemas, query)

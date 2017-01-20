@@ -19,6 +19,11 @@
         "type": "git",
         "url": "git://github.com/simon-barton/pelorus.git"
     },
+    "maintainers": [
+        {
+            "name": "Simon Barton"
+        }
+    ],
     "bugs": {
         "url": "https://github.com/simon-barton/pelorus/issues"
     },
